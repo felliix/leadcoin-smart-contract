@@ -33,18 +33,6 @@ The LDC / ETH rate will be 15000 LDC for every ETH
 
 * LDC token is a **SmartToken**, implementing Bancor's SmartToken contract.
 
-## Audit
-
-The contract was audited by several Ethereum blockchain experts.
-
-No potential vulnerabilities have been identified in the crowdsale and token contract.
-
-* [Matthew di Ferrante][mattdf] and [Dean Eigenmann][decnus], well-known Ethereum experts who have provided auditing services for many other token sale contracts. 
-
-  The audit report is available here:
-     
-https://github.com/LeadcoinNetwork/crowdsale-smart-contract/blob/master/audit/leadcoin-audit.pdf
-  
 ## Code
  
 #### Class Diagram  
@@ -152,27 +140,3 @@ $ ./scripts/test.sh
 ```bash
 $ ./scripts/coverage.sh
 ```
-
-## Collaborators
-
-* **[Alexey Murashkevich](https://github.com/alexeym2012)**
-* **[Shai Ament](https://github.com/doubleorseven)**
-
-
-## License
-
-Apache License v2.0
-
-
-[leadcoin]: https://www.leadcoin.network
-[ethereum]: https://www.ethereum.org/
-
-[solidity]: https://solidity.readthedocs.io/en/develop/
-[truffle]: http://truffleframework.com/
-[testrpc]: https://github.com/ethereumjs/testrpc
-[bancor]: https://github.com/bancorprotocol/contracts
-[openzeppelin]: https://openzeppelin.org
-[sirinlabicogithub]: https://github.com/sirin-labs/crowdsale-smart-contract
-[openzeppelin_v1.3.0]: https://github.com/OpenZeppelin/zeppelin-solidity/releases/tag/v1.3.0
-[mattdf]: http://github.com/mattdf
-[decnus]: http://github.com/decanus
